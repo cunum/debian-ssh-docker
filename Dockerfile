@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:buster
 
 MAINTAINER HKLCF <hklcfs@gmail.com>
 
