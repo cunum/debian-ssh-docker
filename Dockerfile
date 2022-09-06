@@ -1,6 +1,6 @@
 FROM debian:buster
 
-MAINTAINER HKLCF <hklcfs@gmail.com>
+LABEL maintainer="christian.mahler@cunum.com"
 
 RUN apt-get update -y && apt-get upgrade -y && apt-get install -y \
   openssh-server \
